@@ -1,7 +1,10 @@
 {% extends 'base.html' %}
 {% block content %}
 <div class="post-entry">
-<h3>{{ object.title }}</h3>
-<p>{{ object.body }}</p>
+<h3>{{ post.title }}</h3>
+<p>{{ post.body }}</p>
 </div>
+
+<a href="{% url 'post_edit' post.pk %}"><button class="btn btn-outline-success my-2 my-sm-0" type="button">Edit Blog Post</button></a>
+<a href="{% url 'post_delete' post.pk %}"><button class="btn btn-outline-danger my-2 my-sm-0" type="button">Delete Blog Post</button></a>
 {% endblock content %}
