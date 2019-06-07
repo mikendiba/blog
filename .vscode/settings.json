@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\michn\\.virtualenvs\\blog-psvs7RGY\\Scripts\\python.exe"
+    "python.pythonPath": "C:\\Users\\michn\\.virtualenvs\\blog-psvs7RGY\\Scripts\\python.exe",
+    "java.configuration.updateBuildConfiguration": "disabled"
 }
